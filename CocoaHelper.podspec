@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = "CocoaHelper"
-  s.version          = "1.0.0"
-  s.summary          = "Swift categories"
+  s.version          = "1.0.1"
+  s.summary          = "A bundle Swift categories for Cocoa/Cocoa Touch."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-                        Swift categories
+                        CocoaHelper is a bundle Swift categories for Cocoa/Cocoa Touch.
                         DESC
 
   s.homepage         = "https://github.com/Meniny/CocoaHelper-in-Swift"
@@ -34,5 +34,6 @@ Pod::Spec.new do |s|
 
   s.source_files = 'CocoaHelper/**/*'
   # s.public_header_files = 'Fire/*.h'
-  s.frameworks = 'Foundation'
+  s.osx.frameworks = 'Cocoa'
+  s.ios.frameworks = 'Foundation', 'UIKit', 'ImageIO'
 end

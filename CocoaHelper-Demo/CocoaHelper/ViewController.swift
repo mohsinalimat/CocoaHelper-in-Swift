@@ -7,6 +7,7 @@
 //
 
 import Cocoa
+import CocoaHelper
 
 class ViewController: NSViewController {
 

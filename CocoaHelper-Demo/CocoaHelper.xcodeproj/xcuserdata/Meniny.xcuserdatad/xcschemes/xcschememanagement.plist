@@ -9,10 +9,20 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>CocoaHelperIOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>5CD394551EA730D300508BCF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5CE228471EB97368004866B6</key>
 		<dict>
 			<key>primary</key>
 			<true/>

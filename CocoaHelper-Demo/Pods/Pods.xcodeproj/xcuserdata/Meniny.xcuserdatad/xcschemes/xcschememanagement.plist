@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>CocoaHelper-OSX.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>CocoaHelper-iOS.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-CocoaHelperIOS.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-CocoaHelperOSX.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>7FF6F8CA8A9856768A379346DB39E73C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>88B16B7A6C74A7A40FD56B93E6AAEFCF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8CA52B5FE398FCFCF0B728E50639360F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D0E18E9683752396A797A1478B7B4030</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

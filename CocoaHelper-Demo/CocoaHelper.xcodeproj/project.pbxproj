@@ -7,29 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5C0CDFE21EA943A000564505 /* MXHelper-Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0CDFDD1EA943A000564505 /* MXHelper-Common.swift */; };
-		5C0CDFE31EA943A000564505 /* MXHelper-Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0CDFDE1EA943A000564505 /* MXHelper-Date.swift */; };
-		5C0CDFE41EA943A000564505 /* MXHelper-Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0CDFDF1EA943A000564505 /* MXHelper-Double.swift */; };
-		5C0CDFE51EA943A000564505 /* MXHelper-Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0CDFE01EA943A000564505 /* MXHelper-Int.swift */; };
-		5C0CDFE61EA943A000564505 /* MXHelper-String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0CDFE11EA943A000564505 /* MXHelper-String.swift */; };
+		433EA604D7A60E86F4A48DA0 /* Pods_CocoaHelperOSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 357DD87ED028CDFFBA3ABA11 /* Pods_CocoaHelperOSX.framework */; };
+		5904EEAF188A7CCBCAF0E0F1 /* Pods_CocoaHelperIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D1FCE48758630F665642D70 /* Pods_CocoaHelperIOS.framework */; };
 		5CD3945A1EA730D300508BCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD394591EA730D300508BCF /* AppDelegate.swift */; };
 		5CD3945C1EA730D300508BCF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD3945B1EA730D300508BCF /* ViewController.swift */; };
 		5CD3945E1EA730D300508BCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CD3945D1EA730D300508BCF /* Assets.xcassets */; };
 		5CD394611EA730D300508BCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CD3945F1EA730D300508BCF /* Main.storyboard */; };
+		5CE2284B1EB97368004866B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE2284A1EB97368004866B6 /* AppDelegate.swift */; };
+		5CE2284D1EB97368004866B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE2284C1EB97368004866B6 /* ViewController.swift */; };
+		5CE228501EB97368004866B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CE2284E1EB97368004866B6 /* Main.storyboard */; };
+		5CE228521EB97368004866B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CE228511EB97368004866B6 /* Assets.xcassets */; };
+		5CE228551EB97368004866B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CE228531EB97368004866B6 /* LaunchScreen.storyboard */; };
+		5CE228751EB97BE6004866B6 /* 1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5CE228741EB97BE6004866B6 /* 1.gif */; };
+		5CE228761EB97BE6004866B6 /* 1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5CE228741EB97BE6004866B6 /* 1.gif */; };
+		5CE228781EB97F9F004866B6 /* CocoaHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CE228771EB97F9F004866B6 /* CocoaHelper.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5C0CDFDD1EA943A000564505 /* MXHelper-Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MXHelper-Common.swift"; sourceTree = "<group>"; };
-		5C0CDFDE1EA943A000564505 /* MXHelper-Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MXHelper-Date.swift"; sourceTree = "<group>"; };
-		5C0CDFDF1EA943A000564505 /* MXHelper-Double.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MXHelper-Double.swift"; sourceTree = "<group>"; };
-		5C0CDFE01EA943A000564505 /* MXHelper-Int.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MXHelper-Int.swift"; sourceTree = "<group>"; };
-		5C0CDFE11EA943A000564505 /* MXHelper-String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MXHelper-String.swift"; sourceTree = "<group>"; };
-		5CD394561EA730D300508BCF /* CocoaHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D1FCE48758630F665642D70 /* Pods_CocoaHelperIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CocoaHelperIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		357DD87ED028CDFFBA3ABA11 /* Pods_CocoaHelperOSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CocoaHelperOSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CD394561EA730D300508BCF /* CocoaHelperOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaHelperOSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CD394591EA730D300508BCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5CD3945B1EA730D300508BCF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5CD3945D1EA730D300508BCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5CD394601EA730D300508BCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5CD394621EA730D300508BCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CE228481EB97368004866B6 /* CocoaHelperIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaHelperIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CE2284A1EB97368004866B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5CE2284C1EB97368004866B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5CE2284F1EB97368004866B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5CE228511EB97368004866B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CE228541EB97368004866B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5CE228561EB97368004866B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CE228741EB97BE6004866B6 /* 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1.gif; sourceTree = "<group>"; };
+		5CE228771EB97F9F004866B6 /* CocoaHelper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaHelper.framework; path = "../../../../Library/Developer/Xcode/DerivedData/CocoaHelper-fglwyhrxjzdezubftwdavkxzxwrl/Build/Products/Debug-iphonesimulator/CocoaHelper-iOS/CocoaHelper.framework"; sourceTree = "<group>"; };
+		937111F11FA6D458A87C8ABE /* Pods-CocoaHelperOSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaHelperOSX.release.xcconfig"; path = "Pods/Target Support Files/Pods-CocoaHelperOSX/Pods-CocoaHelperOSX.release.xcconfig"; sourceTree = "<group>"; };
+		9B7621A6B2BA6093C16646C7 /* Pods-CocoaHelperIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaHelperIOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CocoaHelperIOS/Pods-CocoaHelperIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		BCCE21CC7C94472799F38284 /* Pods-CocoaHelperIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaHelperIOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-CocoaHelperIOS/Pods-CocoaHelperIOS.release.xcconfig"; sourceTree = "<group>"; };
+		F7D40E345E455DA19D3DF5AC /* Pods-CocoaHelperOSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaHelperOSX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CocoaHelperOSX/Pods-CocoaHelperOSX.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,72 +52,131 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				433EA604D7A60E86F4A48DA0 /* Pods_CocoaHelperOSX.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CE228451EB97368004866B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CE228781EB97F9F004866B6 /* CocoaHelper.framework in Frameworks */,
+				5904EEAF188A7CCBCAF0E0F1 /* Pods_CocoaHelperIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5C0CDFDC1EA943A000564505 /* CocoaHelper */ = {
+		48857566B3D4475ACEC7604F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5C0CDFDD1EA943A000564505 /* MXHelper-Common.swift */,
-				5C0CDFDE1EA943A000564505 /* MXHelper-Date.swift */,
-				5C0CDFDF1EA943A000564505 /* MXHelper-Double.swift */,
-				5C0CDFE01EA943A000564505 /* MXHelper-Int.swift */,
-				5C0CDFE11EA943A000564505 /* MXHelper-String.swift */,
+				9B7621A6B2BA6093C16646C7 /* Pods-CocoaHelperIOS.debug.xcconfig */,
+				BCCE21CC7C94472799F38284 /* Pods-CocoaHelperIOS.release.xcconfig */,
+				F7D40E345E455DA19D3DF5AC /* Pods-CocoaHelperOSX.debug.xcconfig */,
+				937111F11FA6D458A87C8ABE /* Pods-CocoaHelperOSX.release.xcconfig */,
 			);
-			name = CocoaHelper;
-			path = ../../CocoaHelper;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		5CD3944D1EA730D300508BCF = {
 			isa = PBXGroup;
 			children = (
-				5CD394581EA730D300508BCF /* CocoaHelper */,
+				5CE228741EB97BE6004866B6 /* 1.gif */,
+				5CD394581EA730D300508BCF /* CocoaHelperOSX */,
+				5CE228491EB97368004866B6 /* CocoaHelperIOS */,
 				5CD394571EA730D300508BCF /* Products */,
+				48857566B3D4475ACEC7604F /* Pods */,
+				77F7E700930F95B933B15F44 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		5CD394571EA730D300508BCF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5CD394561EA730D300508BCF /* CocoaHelper.app */,
+				5CD394561EA730D300508BCF /* CocoaHelperOSX.app */,
+				5CE228481EB97368004866B6 /* CocoaHelperIOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5CD394581EA730D300508BCF /* CocoaHelper */ = {
+		5CD394581EA730D300508BCF /* CocoaHelperOSX */ = {
 			isa = PBXGroup;
 			children = (
 				5CD394591EA730D300508BCF /* AppDelegate.swift */,
 				5CD3945B1EA730D300508BCF /* ViewController.swift */,
-				5C0CDFDC1EA943A000564505 /* CocoaHelper */,
 				5CD3945D1EA730D300508BCF /* Assets.xcassets */,
 				5CD3945F1EA730D300508BCF /* Main.storyboard */,
 				5CD394621EA730D300508BCF /* Info.plist */,
 			);
+			name = CocoaHelperOSX;
 			path = CocoaHelper;
+			sourceTree = "<group>";
+		};
+		5CE228491EB97368004866B6 /* CocoaHelperIOS */ = {
+			isa = PBXGroup;
+			children = (
+				5CE2284A1EB97368004866B6 /* AppDelegate.swift */,
+				5CE2284C1EB97368004866B6 /* ViewController.swift */,
+				5CE2284E1EB97368004866B6 /* Main.storyboard */,
+				5CE228511EB97368004866B6 /* Assets.xcassets */,
+				5CE228531EB97368004866B6 /* LaunchScreen.storyboard */,
+				5CE228561EB97368004866B6 /* Info.plist */,
+			);
+			path = CocoaHelperIOS;
+			sourceTree = "<group>";
+		};
+		77F7E700930F95B933B15F44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CE228771EB97F9F004866B6 /* CocoaHelper.framework */,
+				0D1FCE48758630F665642D70 /* Pods_CocoaHelperIOS.framework */,
+				357DD87ED028CDFFBA3ABA11 /* Pods_CocoaHelperOSX.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5CD394551EA730D300508BCF /* CocoaHelper */ = {
+		5CD394551EA730D300508BCF /* CocoaHelperOSX */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5CD394651EA730D300508BCF /* Build configuration list for PBXNativeTarget "CocoaHelper" */;
+			buildConfigurationList = 5CD394651EA730D300508BCF /* Build configuration list for PBXNativeTarget "CocoaHelperOSX" */;
 			buildPhases = (
+				5D59F10001FFA5BD8154BCFF /* [CP] Check Pods Manifest.lock */,
 				5CD394521EA730D300508BCF /* Sources */,
 				5CD394531EA730D300508BCF /* Frameworks */,
 				5CD394541EA730D300508BCF /* Resources */,
+				55C6780A73D746BE2AF79F12 /* [CP] Embed Pods Frameworks */,
+				E07CBF6FD4637EB8C197A521 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = CocoaHelper;
+			name = CocoaHelperOSX;
 			productName = CocoaHelper;
-			productReference = 5CD394561EA730D300508BCF /* CocoaHelper.app */;
+			productReference = 5CD394561EA730D300508BCF /* CocoaHelperOSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CE228471EB97368004866B6 /* CocoaHelperIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CE228571EB97368004866B6 /* Build configuration list for PBXNativeTarget "CocoaHelperIOS" */;
+			buildPhases = (
+				0B9A288DD0CF67791D4DFF7B /* [CP] Check Pods Manifest.lock */,
+				5CE228441EB97368004866B6 /* Sources */,
+				5CE228451EB97368004866B6 /* Frameworks */,
+				5CE228461EB97368004866B6 /* Resources */,
+				A288EA8DB3E7610140EAE961 /* [CP] Embed Pods Frameworks */,
+				EF58777DF4DAC1587056FF94 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaHelperIOS;
+			productName = CocoaHelperIOS;
+			productReference = 5CE228481EB97368004866B6 /* CocoaHelperIOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -117,6 +191,11 @@
 				TargetAttributes = {
 					5CD394551EA730D300508BCF = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 63YL5QDMNS;
+						ProvisioningStyle = Automatic;
+					};
+					5CE228471EB97368004866B6 = {
+						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 63YL5QDMNS;
 						ProvisioningStyle = Automatic;
 					};
@@ -135,7 +214,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5CD394551EA730D300508BCF /* CocoaHelper */,
+				5CD394551EA730D300508BCF /* CocoaHelperOSX */,
+				5CE228471EB97368004866B6 /* CocoaHelperIOS */,
 			);
 		};
 /* End PBXProject section */
@@ -145,25 +225,134 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CE228751EB97BE6004866B6 /* 1.gif in Resources */,
 				5CD3945E1EA730D300508BCF /* Assets.xcassets in Resources */,
 				5CD394611EA730D300508BCF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5CE228461EB97368004866B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CE228551EB97368004866B6 /* LaunchScreen.storyboard in Resources */,
+				5CE228521EB97368004866B6 /* Assets.xcassets in Resources */,
+				5CE228761EB97BE6004866B6 /* 1.gif in Resources */,
+				5CE228501EB97368004866B6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B9A288DD0CF67791D4DFF7B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		55C6780A73D746BE2AF79F12 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CocoaHelperOSX/Pods-CocoaHelperOSX-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D59F10001FFA5BD8154BCFF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A288EA8DB3E7610140EAE961 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CocoaHelperIOS/Pods-CocoaHelperIOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E07CBF6FD4637EB8C197A521 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CocoaHelperOSX/Pods-CocoaHelperOSX-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF58777DF4DAC1587056FF94 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CocoaHelperIOS/Pods-CocoaHelperIOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5CD394521EA730D300508BCF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C0CDFE21EA943A000564505 /* MXHelper-Common.swift in Sources */,
 				5CD3945C1EA730D300508BCF /* ViewController.swift in Sources */,
-				5C0CDFE51EA943A000564505 /* MXHelper-Int.swift in Sources */,
-				5C0CDFE61EA943A000564505 /* MXHelper-String.swift in Sources */,
-				5C0CDFE31EA943A000564505 /* MXHelper-Date.swift in Sources */,
-				5C0CDFE41EA943A000564505 /* MXHelper-Double.swift in Sources */,
 				5CD3945A1EA730D300508BCF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CE228441EB97368004866B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CE2284D1EB97368004866B6 /* ViewController.swift in Sources */,
+				5CE2284B1EB97368004866B6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +365,22 @@
 				5CD394601EA730D300508BCF /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5CE2284E1EB97368004866B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CE2284F1EB97368004866B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5CE228531EB97368004866B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CE228541EB97368004866B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -275,6 +480,7 @@
 		};
 		5CD394661EA730D300508BCF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7D40E345E455DA19D3DF5AC /* Pods-CocoaHelperOSX.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -289,6 +495,7 @@
 		};
 		5CD394671EA730D300508BCF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 937111F11FA6D458A87C8ABE /* Pods-CocoaHelperOSX.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -298,6 +505,43 @@
 				PRODUCT_BUNDLE_IDENTIFIER = cn.meniny.CocoaHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5CE228581EB97368004866B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B7621A6B2BA6093C16646C7 /* Pods-CocoaHelperIOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 63YL5QDMNS;
+				INFOPLIST_FILE = CocoaHelperIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.meniny.CocoaHelperIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CE228591EB97368004866B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCCE21CC7C94472799F38284 /* Pods-CocoaHelperIOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 63YL5QDMNS;
+				INFOPLIST_FILE = CocoaHelperIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.meniny.CocoaHelperIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -313,11 +557,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5CD394651EA730D300508BCF /* Build configuration list for PBXNativeTarget "CocoaHelper" */ = {
+		5CD394651EA730D300508BCF /* Build configuration list for PBXNativeTarget "CocoaHelperOSX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5CD394661EA730D300508BCF /* Debug */,
 				5CD394671EA730D300508BCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CE228571EB97368004866B6 /* Build configuration list for PBXNativeTarget "CocoaHelperIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CE228581EB97368004866B6 /* Debug */,
+				5CE228591EB97368004866B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

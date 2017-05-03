@@ -1,0 +1,905 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BF60119C2DFC456B808B42C07CE0DB0 /* MXHelper-Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E3CEF8B3815909AA46380DBF9BC615 /* MXHelper-Int.swift */; };
+		1074228CDB6F666878B891FE6CA7E37C /* MXHelper-Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44459407925E3664F5F93B0BC70E981 /* MXHelper-Double.swift */; };
+		2E09A45B1656CEFAF2482991117A9652 /* MXHelper-Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E26160820829E910C6171F41850F42 /* MXHelper-Date.swift */; };
+		32731688BDBBA067953FC09A9D9FE77F /* CocoaHelper-OSX-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB4DBA6431CBAFEFCB5AD8FB35A4BF9 /* CocoaHelper-OSX-dummy.m */; };
+		32A00EB220FBA6980EF54237C8D35151 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C54F8482FE4CEFB2C5B49459F542079 /* Foundation.framework */; };
+		3CD18F7BBFFBFBC7D80CC750669A7436 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD11AF87955CCAD3FAA1CDBAA1D73108 /* Cocoa.framework */; };
+		3D6463029FE6CCF189C51ED99581D74C /* CocoaHelper-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84A39AA990033A1528793F28A27A4F50 /* CocoaHelper-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B9F60725B0A3DFDF4DED322A917738 /* Pods-CocoaHelperIOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C11C1909F8D1DAA6983ADD068364FA0 /* Pods-CocoaHelperIOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C655E7D73EA122B26BA8212E47AED0B /* Pods-CocoaHelperIOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA2B0AE7A6475FC2B36CAA2FE850E7D /* Pods-CocoaHelperIOS-dummy.m */; };
+		50AFFA31DFC5C84204BCAE66339D25A5 /* Pods-CocoaHelperOSX-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9311F192D7B3BEB4610A621F8E6396 /* Pods-CocoaHelperOSX-dummy.m */; };
+		59D37257FDD144BC5F1E83D6E6020EEF /* MXHelper-Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E26160820829E910C6171F41850F42 /* MXHelper-Date.swift */; };
+		63AD55C6A364888E90347DF714F81B05 /* MXHelper-GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B1187DA5AE0E98DA3339F6D49F775E /* MXHelper-GIF.swift */; };
+		752AAFA880E0C060635DD44A1B27C703 /* Pods-CocoaHelperOSX-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F10181F3D065D68EF648E5C1CAB3711 /* Pods-CocoaHelperOSX-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		762AF846ECB68EA86293401E7A91B8EA /* CocoaHelper-OSX-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FFD5AF774F75E7BDB86BBCC673207DD /* CocoaHelper-OSX-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AE798D4F45CC10382FC4F24660C7C8B /* MXHelper-Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E3CEF8B3815909AA46380DBF9BC615 /* MXHelper-Int.swift */; };
+		7F90D50606BFEEFE83E1D772FA7624E5 /* MXHelper-Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44459407925E3664F5F93B0BC70E981 /* MXHelper-Double.swift */; };
+		95CA874A2574BD27C3FA1B7486962F94 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B616F37B5757953ACBFE9928B20E63 /* ImageIO.framework */; };
+		998A23C10D4434CAF16A7FE511725017 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C54F8482FE4CEFB2C5B49459F542079 /* Foundation.framework */; };
+		A99D90ECCF923B6BA09C0950426122F1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD11AF87955CCAD3FAA1CDBAA1D73108 /* Cocoa.framework */; };
+		C046BEB04004E706B33131AE7E1B0A11 /* MXHelper-String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07313154A84B1E49BA8315921569AFFE /* MXHelper-String.swift */; };
+		D1A83C5BAEF17C5E9736657B14B53CB3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 638D4B91FB367A6E9098FBB6EB4C89A0 /* UIKit.framework */; };
+		D8F532DA27CD06CC6E10429694FE0AE5 /* CocoaHelper-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB008F92E069D249605AD7906671067F /* CocoaHelper-iOS-dummy.m */; };
+		E10FBF0A16A3D30D8FFD99541861B351 /* MXHelper-Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF864B5E9EF48AA1056C8095223F040 /* MXHelper-Common.swift */; };
+		E178EDFB102499830F635674793390AA /* MXHelper-String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07313154A84B1E49BA8315921569AFFE /* MXHelper-String.swift */; };
+		E432EDDFD37BF3DBBB05A7AF50E24ECA /* MXHelper-GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B1187DA5AE0E98DA3339F6D49F775E /* MXHelper-GIF.swift */; };
+		FB1406229F6B73F7B82BB9023355A4BF /* MXHelper-Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF864B5E9EF48AA1056C8095223F040 /* MXHelper-Common.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAF19D618686D6911EBBC5C4E3310CF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CA52B5FE398FCFCF0B728E50639360F;
+			remoteInfo = "CocoaHelper-iOS";
+		};
+		D5805EDDFD2507E76F6AE673D62BD4F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88B16B7A6C74A7A40FD56B93E6AAEFCF;
+			remoteInfo = "CocoaHelper-OSX";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		063E1C4B8A7038B1AD100CB1FB96675A /* CocoaHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		07313154A84B1E49BA8315921569AFFE /* MXHelper-String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "MXHelper-String.swift"; sourceTree = "<group>"; };
+		0FFD5AF774F75E7BDB86BBCC673207DD /* CocoaHelper-OSX-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaHelper-OSX-umbrella.h"; sourceTree = "<group>"; };
+		147C4AE1BCC860AD07D7CDFEA5F35F21 /* Pods-CocoaHelperOSX.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CocoaHelperOSX.modulemap"; sourceTree = "<group>"; };
+		17DE100ABA7EE10F62E9B2B0712BAE08 /* Pods-CocoaHelperIOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CocoaHelperIOS-resources.sh"; sourceTree = "<group>"; };
+		18E3CEF8B3815909AA46380DBF9BC615 /* MXHelper-Int.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "MXHelper-Int.swift"; sourceTree = "<group>"; };
+		1AA17001353BC2A3FEBDE073E4C8C556 /* Pods-CocoaHelperIOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CocoaHelperIOS.modulemap"; sourceTree = "<group>"; };
+		1FC32F738CC8811EC4329BE0319C5045 /* CocoaHelper-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "CocoaHelper-iOS.xcconfig"; path = "../CocoaHelper-iOS/CocoaHelper-iOS.xcconfig"; sourceTree = "<group>"; };
+		2EDD74852C2AA9EBF8F1CF1BCC9BFD3D /* Pods-CocoaHelperIOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CocoaHelperIOS-frameworks.sh"; sourceTree = "<group>"; };
+		3E4526CAA6328B964E584DD091E7D954 /* Pods-CocoaHelperIOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CocoaHelperIOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		4C54F8482FE4CEFB2C5B49459F542079 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4C9311F192D7B3BEB4610A621F8E6396 /* Pods-CocoaHelperOSX-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CocoaHelperOSX-dummy.m"; sourceTree = "<group>"; };
+		4DA08B01F9C3579447B992837E4A53DC /* Pods-CocoaHelperOSX-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CocoaHelperOSX-acknowledgements.plist"; sourceTree = "<group>"; };
+		5262CDE88F9D4588576C03D0FE352143 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		529BAC386A98ED6AC9A21EB00EC5537B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../CocoaHelper-iOS/Info.plist"; sourceTree = "<group>"; };
+		60D78CE83DDEEE782074A40665381F24 /* CocoaHelper-OSX.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "CocoaHelper-OSX.modulemap"; sourceTree = "<group>"; };
+		626D865DBED82F78DED29D9E27C054AD /* Pods-CocoaHelperIOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CocoaHelperIOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		638D4B91FB367A6E9098FBB6EB4C89A0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		6898B7E6A4B50B94A311010B2353C240 /* Pods-CocoaHelperOSX-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CocoaHelperOSX-resources.sh"; sourceTree = "<group>"; };
+		6CF588BCBDC31E86DB1438AE17B28357 /* Pods-CocoaHelperOSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CocoaHelperOSX.release.xcconfig"; sourceTree = "<group>"; };
+		6DCCA57F0C439930D95F4C7A372614AA /* Pods-CocoaHelperOSX-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CocoaHelperOSX-acknowledgements.markdown"; sourceTree = "<group>"; };
+		756DC86BB9E9BDABD3796C9F3E06DC37 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		784FBFB28D22099274A2DD7F6EA2A5C7 /* CocoaHelper-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "CocoaHelper-iOS.modulemap"; path = "../CocoaHelper-iOS/CocoaHelper-iOS.modulemap"; sourceTree = "<group>"; };
+		7BB4DBA6431CBAFEFCB5AD8FB35A4BF9 /* CocoaHelper-OSX-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaHelper-OSX-dummy.m"; sourceTree = "<group>"; };
+		7D692983E223D8D7DD88779C02F2A62E /* Pods-CocoaHelperIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CocoaHelperIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		7F10181F3D065D68EF648E5C1CAB3711 /* Pods-CocoaHelperOSX-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CocoaHelperOSX-umbrella.h"; sourceTree = "<group>"; };
+		84A39AA990033A1528793F28A27A4F50 /* CocoaHelper-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CocoaHelper-iOS-umbrella.h"; path = "../CocoaHelper-iOS/CocoaHelper-iOS-umbrella.h"; sourceTree = "<group>"; };
+		87E26160820829E910C6171F41850F42 /* MXHelper-Date.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "MXHelper-Date.swift"; sourceTree = "<group>"; };
+		8DCE5A805256BC6B7ED65411679FA26D /* Pods-CocoaHelperIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CocoaHelperIOS.release.xcconfig"; sourceTree = "<group>"; };
+		8ECC7648027B888AE185ACEAAAE64F9C /* CocoaHelper-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CocoaHelper-iOS-prefix.pch"; path = "../CocoaHelper-iOS/CocoaHelper-iOS-prefix.pch"; sourceTree = "<group>"; };
+		911388DAB945A416CF12833C018030F5 /* CocoaHelper-OSX.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "CocoaHelper-OSX.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C11C1909F8D1DAA6983ADD068364FA0 /* Pods-CocoaHelperIOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CocoaHelperIOS-umbrella.h"; sourceTree = "<group>"; };
+		A2FFDCE2190A0A1999EBB146144D8920 /* CocoaHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7B616F37B5757953ACBFE9928B20E63 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		AEA2B0AE7A6475FC2B36CAA2FE850E7D /* Pods-CocoaHelperIOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CocoaHelperIOS-dummy.m"; sourceTree = "<group>"; };
+		B44459407925E3664F5F93B0BC70E981 /* MXHelper-Double.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "MXHelper-Double.swift"; sourceTree = "<group>"; };
+		BDF864B5E9EF48AA1056C8095223F040 /* MXHelper-Common.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "MXHelper-Common.swift"; sourceTree = "<group>"; };
+		C69AEE5362FC0BFF64F6A2CDD9402CAE /* Pods_CocoaHelperOSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CocoaHelperOSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8949F7CF8F8B1479722CA2FC2676CA8 /* Pods-CocoaHelperOSX-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CocoaHelperOSX-frameworks.sh"; sourceTree = "<group>"; };
+		D85562BD82964D237077CE7273662BF0 /* Pods-CocoaHelperOSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CocoaHelperOSX.debug.xcconfig"; sourceTree = "<group>"; };
+		DD11AF87955CCAD3FAA1CDBAA1D73108 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		E336FEB60D72120B4B75CCC970D85530 /* Pods_CocoaHelperIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CocoaHelperIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E60276A078AF00206B9CF76117A61F98 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6B1187DA5AE0E98DA3339F6D49F775E /* MXHelper-GIF.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "MXHelper-GIF.swift"; sourceTree = "<group>"; };
+		EB008F92E069D249605AD7906671067F /* CocoaHelper-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CocoaHelper-iOS-dummy.m"; path = "../CocoaHelper-iOS/CocoaHelper-iOS-dummy.m"; sourceTree = "<group>"; };
+		F84985151370C324DCF50D525AADB6F2 /* CocoaHelper-OSX-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaHelper-OSX-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C489680CF578DEE06F1CBB300FEA7BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				998A23C10D4434CAF16A7FE511725017 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D19F789C0A5EAD1654F2030F040290C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CD18F7BBFFBFBC7D80CC750669A7436 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E1FA9A79AAC7FFAF925D9EA90B027C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A99D90ECCF923B6BA09C0950426122F1 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5F75BFEBFB49E580D32578D94E766C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32A00EB220FBA6980EF54237C8D35151 /* Foundation.framework in Frameworks */,
+				95CA874A2574BD27C3FA1B7486962F94 /* ImageIO.framework in Frameworks */,
+				D1A83C5BAEF17C5E9736657B14B53CB3 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		106EA3D6C43AA4FAE9721F63E326BF01 /* CocoaHelper */ = {
+			isa = PBXGroup;
+			children = (
+				BDF864B5E9EF48AA1056C8095223F040 /* MXHelper-Common.swift */,
+				87E26160820829E910C6171F41850F42 /* MXHelper-Date.swift */,
+				B44459407925E3664F5F93B0BC70E981 /* MXHelper-Double.swift */,
+				E6B1187DA5AE0E98DA3339F6D49F775E /* MXHelper-GIF.swift */,
+				18E3CEF8B3815909AA46380DBF9BC615 /* MXHelper-Int.swift */,
+				07313154A84B1E49BA8315921569AFFE /* MXHelper-String.swift */,
+			);
+			path = CocoaHelper;
+			sourceTree = "<group>";
+		};
+		244B9724C85DFC289E5DCDBC86E46132 /* Pods-CocoaHelperIOS */ = {
+			isa = PBXGroup;
+			children = (
+				5262CDE88F9D4588576C03D0FE352143 /* Info.plist */,
+				1AA17001353BC2A3FEBDE073E4C8C556 /* Pods-CocoaHelperIOS.modulemap */,
+				626D865DBED82F78DED29D9E27C054AD /* Pods-CocoaHelperIOS-acknowledgements.markdown */,
+				3E4526CAA6328B964E584DD091E7D954 /* Pods-CocoaHelperIOS-acknowledgements.plist */,
+				AEA2B0AE7A6475FC2B36CAA2FE850E7D /* Pods-CocoaHelperIOS-dummy.m */,
+				2EDD74852C2AA9EBF8F1CF1BCC9BFD3D /* Pods-CocoaHelperIOS-frameworks.sh */,
+				17DE100ABA7EE10F62E9B2B0712BAE08 /* Pods-CocoaHelperIOS-resources.sh */,
+				9C11C1909F8D1DAA6983ADD068364FA0 /* Pods-CocoaHelperIOS-umbrella.h */,
+				7D692983E223D8D7DD88779C02F2A62E /* Pods-CocoaHelperIOS.debug.xcconfig */,
+				8DCE5A805256BC6B7ED65411679FA26D /* Pods-CocoaHelperIOS.release.xcconfig */,
+			);
+			name = "Pods-CocoaHelperIOS";
+			path = "Target Support Files/Pods-CocoaHelperIOS";
+			sourceTree = "<group>";
+		};
+		36E576616323B71147B1FD46775ACE73 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CBB90657E8AB59323D5D1954A95DD934 /* CocoaHelper */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3E53615907C4A1998A5C81A8C21296CC /* Pods-CocoaHelperOSX */ = {
+			isa = PBXGroup;
+			children = (
+				756DC86BB9E9BDABD3796C9F3E06DC37 /* Info.plist */,
+				147C4AE1BCC860AD07D7CDFEA5F35F21 /* Pods-CocoaHelperOSX.modulemap */,
+				6DCCA57F0C439930D95F4C7A372614AA /* Pods-CocoaHelperOSX-acknowledgements.markdown */,
+				4DA08B01F9C3579447B992837E4A53DC /* Pods-CocoaHelperOSX-acknowledgements.plist */,
+				4C9311F192D7B3BEB4610A621F8E6396 /* Pods-CocoaHelperOSX-dummy.m */,
+				C8949F7CF8F8B1479722CA2FC2676CA8 /* Pods-CocoaHelperOSX-frameworks.sh */,
+				6898B7E6A4B50B94A311010B2353C240 /* Pods-CocoaHelperOSX-resources.sh */,
+				7F10181F3D065D68EF648E5C1CAB3711 /* Pods-CocoaHelperOSX-umbrella.h */,
+				D85562BD82964D237077CE7273662BF0 /* Pods-CocoaHelperOSX.debug.xcconfig */,
+				6CF588BCBDC31E86DB1438AE17B28357 /* Pods-CocoaHelperOSX.release.xcconfig */,
+			);
+			name = "Pods-CocoaHelperOSX";
+			path = "Target Support Files/Pods-CocoaHelperOSX";
+			sourceTree = "<group>";
+		};
+		5292955AABA539B7B8EFE28298447EE2 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4C54F8482FE4CEFB2C5B49459F542079 /* Foundation.framework */,
+				A7B616F37B5757953ACBFE9928B20E63 /* ImageIO.framework */,
+				638D4B91FB367A6E9098FBB6EB4C89A0 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6551259080955978CD53E9F1B6AD62A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				063E1C4B8A7038B1AD100CB1FB96675A /* CocoaHelper.framework */,
+				A2FFDCE2190A0A1999EBB146144D8920 /* CocoaHelper.framework */,
+				E336FEB60D72120B4B75CCC970D85530 /* Pods_CocoaHelperIOS.framework */,
+				C69AEE5362FC0BFF64F6A2CDD9402CAE /* Pods_CocoaHelperOSX.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78A4F0B2F2B562FE4E5B921633E65EEF /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				DD11AF87955CCAD3FAA1CDBAA1D73108 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				36E576616323B71147B1FD46775ACE73 /* Development Pods */,
+				EC63602364F007BD029F7FE0355037AC /* Frameworks */,
+				6551259080955978CD53E9F1B6AD62A1 /* Products */,
+				EB5A1EA8E2DD6737F12199B2EF6BD485 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		AF8AF7CE62828B9CE81719B8BCCF1251 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				784FBFB28D22099274A2DD7F6EA2A5C7 /* CocoaHelper-iOS.modulemap */,
+				1FC32F738CC8811EC4329BE0319C5045 /* CocoaHelper-iOS.xcconfig */,
+				EB008F92E069D249605AD7906671067F /* CocoaHelper-iOS-dummy.m */,
+				8ECC7648027B888AE185ACEAAAE64F9C /* CocoaHelper-iOS-prefix.pch */,
+				84A39AA990033A1528793F28A27A4F50 /* CocoaHelper-iOS-umbrella.h */,
+				60D78CE83DDEEE782074A40665381F24 /* CocoaHelper-OSX.modulemap */,
+				911388DAB945A416CF12833C018030F5 /* CocoaHelper-OSX.xcconfig */,
+				7BB4DBA6431CBAFEFCB5AD8FB35A4BF9 /* CocoaHelper-OSX-dummy.m */,
+				F84985151370C324DCF50D525AADB6F2 /* CocoaHelper-OSX-prefix.pch */,
+				0FFD5AF774F75E7BDB86BBCC673207DD /* CocoaHelper-OSX-umbrella.h */,
+				E60276A078AF00206B9CF76117A61F98 /* Info.plist */,
+				529BAC386A98ED6AC9A21EB00EC5537B /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "CocoaHelper-Demo/Pods/Target Support Files/CocoaHelper-OSX";
+			sourceTree = "<group>";
+		};
+		CBB90657E8AB59323D5D1954A95DD934 /* CocoaHelper */ = {
+			isa = PBXGroup;
+			children = (
+				106EA3D6C43AA4FAE9721F63E326BF01 /* CocoaHelper */,
+				AF8AF7CE62828B9CE81719B8BCCF1251 /* Support Files */,
+			);
+			name = CocoaHelper;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		EB5A1EA8E2DD6737F12199B2EF6BD485 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				244B9724C85DFC289E5DCDBC86E46132 /* Pods-CocoaHelperIOS */,
+				3E53615907C4A1998A5C81A8C21296CC /* Pods-CocoaHelperOSX */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EC63602364F007BD029F7FE0355037AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5292955AABA539B7B8EFE28298447EE2 /* iOS */,
+				78A4F0B2F2B562FE4E5B921633E65EEF /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8E53D982E4B9A4A5CCBAD69ECAC6921F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				762AF846ECB68EA86293401E7A91B8EA /* CocoaHelper-OSX-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCDC8C5419968806546A6AB8F11AD221 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				752AAFA880E0C060635DD44A1B27C703 /* Pods-CocoaHelperOSX-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2D5AD3740F06F833498D240C6004BBE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43B9F60725B0A3DFDF4DED322A917738 /* Pods-CocoaHelperIOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4EB1DCFDD7F680B4657A3EA2EA23413 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D6463029FE6CCF189C51ED99581D74C /* CocoaHelper-iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7FF6F8CA8A9856768A379346DB39E73C /* Pods-CocoaHelperOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9762250F82521277E697B0353AE764F3 /* Build configuration list for PBXNativeTarget "Pods-CocoaHelperOSX" */;
+			buildPhases = (
+				583A760D20FA46CFE253C7F20A99DED6 /* Sources */,
+				4D19F789C0A5EAD1654F2030F040290C /* Frameworks */,
+				BCDC8C5419968806546A6AB8F11AD221 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDA445E346368A4849F08BCBF4F46CEB /* PBXTargetDependency */,
+			);
+			name = "Pods-CocoaHelperOSX";
+			productName = "Pods-CocoaHelperOSX";
+			productReference = C69AEE5362FC0BFF64F6A2CDD9402CAE /* Pods_CocoaHelperOSX.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		88B16B7A6C74A7A40FD56B93E6AAEFCF /* CocoaHelper-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1873BF9F30C7BCC5A24E9E9967985508 /* Build configuration list for PBXNativeTarget "CocoaHelper-OSX" */;
+			buildPhases = (
+				AECE3734BF42633C6B98D5B50DD55997 /* Sources */,
+				55E1FA9A79AAC7FFAF925D9EA90B027C /* Frameworks */,
+				8E53D982E4B9A4A5CCBAD69ECAC6921F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CocoaHelper-OSX";
+			productName = "CocoaHelper-OSX";
+			productReference = 063E1C4B8A7038B1AD100CB1FB96675A /* CocoaHelper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8CA52B5FE398FCFCF0B728E50639360F /* CocoaHelper-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4E2A80D0181D3C1B4B465D91A48C9FA /* Build configuration list for PBXNativeTarget "CocoaHelper-iOS" */;
+			buildPhases = (
+				1F10097C5DAF51328028282F11B61C48 /* Sources */,
+				FA5F75BFEBFB49E580D32578D94E766C /* Frameworks */,
+				F4EB1DCFDD7F680B4657A3EA2EA23413 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CocoaHelper-iOS";
+			productName = "CocoaHelper-iOS";
+			productReference = A2FFDCE2190A0A1999EBB146144D8920 /* CocoaHelper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D0E18E9683752396A797A1478B7B4030 /* Pods-CocoaHelperIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 391301DF038B4DCCE70D355C2E7C33ED /* Build configuration list for PBXNativeTarget "Pods-CocoaHelperIOS" */;
+			buildPhases = (
+				7757363419C48BFFD3ECC855DCE041B2 /* Sources */,
+				3C489680CF578DEE06F1CBB300FEA7BF /* Frameworks */,
+				D2D5AD3740F06F833498D240C6004BBE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4515C7E919266D3BA7A64D670186D771 /* PBXTargetDependency */,
+			);
+			name = "Pods-CocoaHelperIOS";
+			productName = "Pods-CocoaHelperIOS";
+			productReference = E336FEB60D72120B4B75CCC970D85530 /* Pods_CocoaHelperIOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6551259080955978CD53E9F1B6AD62A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CA52B5FE398FCFCF0B728E50639360F /* CocoaHelper-iOS */,
+				88B16B7A6C74A7A40FD56B93E6AAEFCF /* CocoaHelper-OSX */,
+				D0E18E9683752396A797A1478B7B4030 /* Pods-CocoaHelperIOS */,
+				7FF6F8CA8A9856768A379346DB39E73C /* Pods-CocoaHelperOSX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F10097C5DAF51328028282F11B61C48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8F532DA27CD06CC6E10429694FE0AE5 /* CocoaHelper-iOS-dummy.m in Sources */,
+				E10FBF0A16A3D30D8FFD99541861B351 /* MXHelper-Common.swift in Sources */,
+				59D37257FDD144BC5F1E83D6E6020EEF /* MXHelper-Date.swift in Sources */,
+				7F90D50606BFEEFE83E1D772FA7624E5 /* MXHelper-Double.swift in Sources */,
+				E432EDDFD37BF3DBBB05A7AF50E24ECA /* MXHelper-GIF.swift in Sources */,
+				7AE798D4F45CC10382FC4F24660C7C8B /* MXHelper-Int.swift in Sources */,
+				C046BEB04004E706B33131AE7E1B0A11 /* MXHelper-String.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		583A760D20FA46CFE253C7F20A99DED6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50AFFA31DFC5C84204BCAE66339D25A5 /* Pods-CocoaHelperOSX-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7757363419C48BFFD3ECC855DCE041B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C655E7D73EA122B26BA8212E47AED0B /* Pods-CocoaHelperIOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AECE3734BF42633C6B98D5B50DD55997 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32731688BDBBA067953FC09A9D9FE77F /* CocoaHelper-OSX-dummy.m in Sources */,
+				FB1406229F6B73F7B82BB9023355A4BF /* MXHelper-Common.swift in Sources */,
+				2E09A45B1656CEFAF2482991117A9652 /* MXHelper-Date.swift in Sources */,
+				1074228CDB6F666878B891FE6CA7E37C /* MXHelper-Double.swift in Sources */,
+				63AD55C6A364888E90347DF714F81B05 /* MXHelper-GIF.swift in Sources */,
+				0BF60119C2DFC456B808B42C07CE0DB0 /* MXHelper-Int.swift in Sources */,
+				E178EDFB102499830F635674793390AA /* MXHelper-String.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4515C7E919266D3BA7A64D670186D771 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CocoaHelper-iOS";
+			target = 8CA52B5FE398FCFCF0B728E50639360F /* CocoaHelper-iOS */;
+			targetProxy = CAF19D618686D6911EBBC5C4E3310CF8 /* PBXContainerItemProxy */;
+		};
+		FDA445E346368A4849F08BCBF4F46CEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CocoaHelper-OSX";
+			target = 88B16B7A6C74A7A40FD56B93E6AAEFCF /* CocoaHelper-OSX */;
+			targetProxy = D5805EDDFD2507E76F6AE673D62BD4F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		17B5B2E4537268DABBB055C1252897FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 911388DAB945A416CF12833C018030F5 /* CocoaHelper-OSX.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaHelper-OSX/CocoaHelper-OSX-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaHelper-OSX/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/CocoaHelper-OSX/CocoaHelper-OSX.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CocoaHelper;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3C1797BC1ACCB058686ABE209CD814C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D85562BD82964D237077CE7273662BF0 /* Pods-CocoaHelperOSX.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CocoaHelperOSX/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-CocoaHelperOSX/Pods-CocoaHelperOSX.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CocoaHelperOSX;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		535096DA1FC137C83AFF396EBCCEBCFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FC32F738CC8811EC4329BE0319C5045 /* CocoaHelper-iOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaHelper-iOS/CocoaHelper-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaHelper-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaHelper-iOS/CocoaHelper-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CocoaHelper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		56F4FF8227D87F1CF62E78D03A59AFF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F6F2E8115CDDFB089F9F0A9DE409F19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DCE5A805256BC6B7ED65411679FA26D /* Pods-CocoaHelperIOS.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CocoaHelperIOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CocoaHelperIOS/Pods-CocoaHelperIOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CocoaHelperIOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9C6B01B38B9C78E064CFBC61F9D7FE3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9DECB8FC7708AA94081A03B49EAC7092 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CF588BCBDC31E86DB1438AE17B28357 /* Pods-CocoaHelperOSX.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CocoaHelperOSX/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-CocoaHelperOSX/Pods-CocoaHelperOSX.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CocoaHelperOSX;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ABE32A40C678DEF07AFBD4C6E8E17095 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D692983E223D8D7DD88779C02F2A62E /* Pods-CocoaHelperIOS.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CocoaHelperIOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CocoaHelperIOS/Pods-CocoaHelperIOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CocoaHelperIOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D19F772A0297F0E361C3F152CE795841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FC32F738CC8811EC4329BE0319C5045 /* CocoaHelper-iOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaHelper-iOS/CocoaHelper-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaHelper-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaHelper-iOS/CocoaHelper-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CocoaHelper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F752C0C5537CBF3412BD7A6D2E267486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 911388DAB945A416CF12833C018030F5 /* CocoaHelper-OSX.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaHelper-OSX/CocoaHelper-OSX-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaHelper-OSX/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/CocoaHelper-OSX/CocoaHelper-OSX.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CocoaHelper;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1873BF9F30C7BCC5A24E9E9967985508 /* Build configuration list for PBXNativeTarget "CocoaHelper-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F752C0C5537CBF3412BD7A6D2E267486 /* Debug */,
+				17B5B2E4537268DABBB055C1252897FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C6B01B38B9C78E064CFBC61F9D7FE3D /* Debug */,
+				56F4FF8227D87F1CF62E78D03A59AFF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		391301DF038B4DCCE70D355C2E7C33ED /* Build configuration list for PBXNativeTarget "Pods-CocoaHelperIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABE32A40C678DEF07AFBD4C6E8E17095 /* Debug */,
+				8F6F2E8115CDDFB089F9F0A9DE409F19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9762250F82521277E697B0353AE764F3 /* Build configuration list for PBXNativeTarget "Pods-CocoaHelperOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C1797BC1ACCB058686ABE209CD814C1 /* Debug */,
+				9DECB8FC7708AA94081A03B49EAC7092 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4E2A80D0181D3C1B4B465D91A48C9FA /* Build configuration list for PBXNativeTarget "CocoaHelper-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				535096DA1FC137C83AFF396EBCCEBCFF /* Debug */,
+				D19F772A0297F0E361C3F152CE795841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

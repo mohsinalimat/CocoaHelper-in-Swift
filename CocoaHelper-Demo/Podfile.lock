@@ -1,0 +1,16 @@
+PODS:
+  - CocoaHelper (1.0.0)
+
+DEPENDENCIES:
+  - CocoaHelper (from `../`)
+
+EXTERNAL SOURCES:
+  CocoaHelper:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CocoaHelper: f4570bf8b4e3981904977d7ff617654cd79dd208
+
+PODFILE CHECKSUM: b2828b0c814dcab890f2bb98dfc9d94b8481e775
+
+COCOAPODS: 1.2.0.beta.1

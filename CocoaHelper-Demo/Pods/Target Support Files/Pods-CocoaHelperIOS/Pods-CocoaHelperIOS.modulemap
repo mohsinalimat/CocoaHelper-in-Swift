@@ -1,0 +1,6 @@
+framework module Pods_CocoaHelperIOS {
+  umbrella header "Pods-CocoaHelperIOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
