@@ -8,19 +8,6 @@
 
 #if os(OSX)
     import Cocoa
-    
-    /// notify at NotificationCenter
-    public func notify(title: String, informative: String? = nil, image: NSImage? = nil, sound: String? = NSUserNotificationDefaultSoundName, delegate: NSUserNotificationCenterDelegate? = nil) {
-        
-        let notification = NSUserNotification()
-        let notificationCenter = NSUserNotificationCenter.default
-        notificationCenter.delegate = delegate
-        notification.title = title
-        notification.informativeText = informative
-        notification.contentImage = image
-        notification.soundName = sound;
-        notificationCenter.scheduleNotification(notification)
-    }
 #else
     import Foundation
     import UIKit
