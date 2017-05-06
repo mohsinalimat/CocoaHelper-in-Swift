@@ -17,6 +17,13 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         let gif = UIImage.gif(named: "1.gif")
         self.imageView.image = gif
+        
+        let systemVersion = UIDevice.current.systemVersion
+        if let alphanumericSystemVersion = UIDevice.current.alphanumericSystemVersion {
+            print(systemVersion + "(" + alphanumericSystemVersion + ")")
+        } else {
+            print(systemVersion)
+        }
     }
 
     override func didReceiveMemoryWarning() {

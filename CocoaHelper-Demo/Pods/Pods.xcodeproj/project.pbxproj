@@ -19,6 +19,8 @@
 		50AFFA31DFC5C84204BCAE66339D25A5 /* Pods-CocoaHelperOSX-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9311F192D7B3BEB4610A621F8E6396 /* Pods-CocoaHelperOSX-dummy.m */; };
 		59D37257FDD144BC5F1E83D6E6020EEF /* MXHelper-Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E26160820829E910C6171F41850F42 /* MXHelper-Date.swift */; };
 		5CC886D01EBDAECF00164DC0 /* MXHelper-App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC886CF1EBDAECF00164DC0 /* MXHelper-App.swift */; };
+		5CC886D21EBDC3E600164DC0 /* MXHelper-Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC886D11EBDC3E600164DC0 /* MXHelper-Device.swift */; };
+		5CC886D41EBDC87600164DC0 /* sysctl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC886D31EBDC87600164DC0 /* sysctl.swift */; };
 		5CE2287A1EB98416004866B6 /* MXHelper-Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE228791EB98416004866B6 /* MXHelper-Types.swift */; };
 		5CE2287C1EB987E5004866B6 /* MXHelper-Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE2287B1EB987E5004866B6 /* MXHelper-Closure.swift */; };
 		5CE2287E1EB988D6004866B6 /* MXHelper-Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE2287D1EB988D6004866B6 /* MXHelper-Notification.swift */; };
@@ -73,6 +75,8 @@
 		5262CDE88F9D4588576C03D0FE352143 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		529BAC386A98ED6AC9A21EB00EC5537B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../CocoaHelper-iOS/Info.plist"; sourceTree = "<group>"; };
 		5CC886CF1EBDAECF00164DC0 /* MXHelper-App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MXHelper-App.swift"; sourceTree = "<group>"; };
+		5CC886D11EBDC3E600164DC0 /* MXHelper-Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MXHelper-Device.swift"; sourceTree = "<group>"; };
+		5CC886D31EBDC87600164DC0 /* sysctl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sysctl.swift; sourceTree = "<group>"; };
 		5CE228791EB98416004866B6 /* MXHelper-Types.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MXHelper-Types.swift"; sourceTree = "<group>"; };
 		5CE2287B1EB987E5004866B6 /* MXHelper-Closure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MXHelper-Closure.swift"; sourceTree = "<group>"; };
 		5CE2287D1EB988D6004866B6 /* MXHelper-Notification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MXHelper-Notification.swift"; sourceTree = "<group>"; };
@@ -153,6 +157,7 @@
 			children = (
 				BDF864B5E9EF48AA1056C8095223F040 /* MXHelper-Common.swift */,
 				5CC886CF1EBDAECF00164DC0 /* MXHelper-App.swift */,
+				5CC886D11EBDC3E600164DC0 /* MXHelper-Device.swift */,
 				5CE228791EB98416004866B6 /* MXHelper-Types.swift */,
 				5CE2287D1EB988D6004866B6 /* MXHelper-Notification.swift */,
 				5CE2287B1EB987E5004866B6 /* MXHelper-Closure.swift */,
@@ -161,6 +166,7 @@
 				E6B1187DA5AE0E98DA3339F6D49F775E /* MXHelper-GIF.swift */,
 				18E3CEF8B3815909AA46380DBF9BC615 /* MXHelper-Int.swift */,
 				07313154A84B1E49BA8315921569AFFE /* MXHelper-String.swift */,
+				5CC886D31EBDC87600164DC0 /* sysctl.swift */,
 			);
 			path = CocoaHelper;
 			sourceTree = "<group>";
@@ -441,10 +447,12 @@
 			files = (
 				D8F532DA27CD06CC6E10429694FE0AE5 /* CocoaHelper-iOS-dummy.m in Sources */,
 				E10FBF0A16A3D30D8FFD99541861B351 /* MXHelper-Common.swift in Sources */,
+				5CC886D41EBDC87600164DC0 /* sysctl.swift in Sources */,
 				5CE2287C1EB987E5004866B6 /* MXHelper-Closure.swift in Sources */,
 				59D37257FDD144BC5F1E83D6E6020EEF /* MXHelper-Date.swift in Sources */,
 				7F90D50606BFEEFE83E1D772FA7624E5 /* MXHelper-Double.swift in Sources */,
 				E432EDDFD37BF3DBBB05A7AF50E24ECA /* MXHelper-GIF.swift in Sources */,
+				5CC886D21EBDC3E600164DC0 /* MXHelper-Device.swift in Sources */,
 				5CC886D01EBDAECF00164DC0 /* MXHelper-App.swift in Sources */,
 				7AE798D4F45CC10382FC4F24660C7C8B /* MXHelper-Int.swift in Sources */,
 				5CE2287A1EB98416004866B6 /* MXHelper-Types.swift in Sources */,
