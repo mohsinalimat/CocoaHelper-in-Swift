@@ -75,7 +75,7 @@ public extension UIImage {
         // Validate data
         guard let imageData = try? Data(contentsOf: bundleURL) else {
             #if DEBUG
-            print("Cannot convert image named \"\(name)\" to NSData")
+            print("Cannot convert image named \"\(res)\" to NSData")
             #endif
             return nil
         }
