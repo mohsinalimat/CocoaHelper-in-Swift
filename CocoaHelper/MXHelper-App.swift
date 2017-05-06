@@ -11,12 +11,12 @@ import Foundation
 public struct ThisApp {
     
     /// Info.plist as a dictionary objec
-    static var infoDictionary: [String: Any]? {
+    public static var infoDictionary: [String: Any]? {
         return Bundle.main.infoDictionary
     }
     
     /// Bundle name string
-    static var bundleName: String? {
+    public static var bundleName: String? {
         get {
             if let info = ThisApp.infoDictionary {
                 if let n = info["CFBundleName"] {
@@ -28,7 +28,7 @@ public struct ThisApp {
     }
     
     /// Version string without build number
-    static var version: String? {
+    public static var version: String? {
         get {
             if let info = ThisApp.infoDictionary {
                 if let v = info["CFBundleShortVersionString"] {
@@ -40,7 +40,7 @@ public struct ThisApp {
     }
     
     /// Build number string
-    static var build: String? {
+    public static var build: String? {
         get {
             if let info = ThisApp.infoDictionary {
                 if let b = info["CFBundleVersion"] {
@@ -52,7 +52,7 @@ public struct ThisApp {
     }
     
     /// Version string with build number
-    static var fullVersion: String? {
+    public static var fullVersion: String? {
         get {
             if let v = ThisApp.version, let b = ThisApp.build {
                 return "\(v).\(b)"
