@@ -8,6 +8,21 @@
 
 import Foundation
 
+#if os(iOS)
+    import UIKit
+    
+    public extension UIApplication {
+        static func usingChinese() -> Bool {
+            if let l = NSLocale.preferredLanguages.first {
+                if l.contains("zh-Hans") {
+                    return true
+                }
+            }
+            return false
+        }
+    }
+#endif
+
 public struct ThisApp {
     
     /// Info.plist as a dictionary objec
