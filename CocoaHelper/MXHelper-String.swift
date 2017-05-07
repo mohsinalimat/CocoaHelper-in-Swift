@@ -64,3 +64,15 @@ public extension String {
     }
 }
 
+public extension String {
+    /// return base64 string of self String
+    public var base64String: String? {
+        if let utf8EncodeData = self.data(using: String.Encoding.utf8, allowLossyConversion: true) {
+            let base64EncodingData = utf8EncodeData.base64EncodedString(options: [])
+            return base64EncodingData
+        }
+        return nil
+    }
+}
+
+
