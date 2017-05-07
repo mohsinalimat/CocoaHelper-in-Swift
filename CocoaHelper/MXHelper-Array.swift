@@ -9,7 +9,7 @@
 import Foundation
 
 public extension Array {
-    public var pretty: String {
+    public var prettyString: String {
         return "\(self as NSArray)"
     }
 }

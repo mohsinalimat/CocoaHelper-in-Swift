@@ -9,7 +9,7 @@
 import Foundation
 
 public extension Dictionary {
-    public var pretty: String {
+    public var prettyString: String {
         return "\(self as NSDictionary)"
     }
 }
