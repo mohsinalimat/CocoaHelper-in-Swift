@@ -18,6 +18,7 @@
 		4C655E7D73EA122B26BA8212E47AED0B /* Pods-CocoaHelperIOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA2B0AE7A6475FC2B36CAA2FE850E7D /* Pods-CocoaHelperIOS-dummy.m */; };
 		50AFFA31DFC5C84204BCAE66339D25A5 /* Pods-CocoaHelperOSX-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9311F192D7B3BEB4610A621F8E6396 /* Pods-CocoaHelperOSX-dummy.m */; };
 		59D37257FDD144BC5F1E83D6E6020EEF /* MXHelper-Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E26160820829E910C6171F41850F42 /* MXHelper-Date.swift */; };
+		5C5385D91EC14C730043C1B9 /* MXHelper-Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5385D81EC14C730043C1B9 /* MXHelper-Operator.swift */; };
 		5C7E14CE1EBF34CC0074A265 /* MXHelper-Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7E14CD1EBF34CC0074A265 /* MXHelper-Dictionary.swift */; };
 		5C9145A01EBE30D700D4AAC5 /* MXHelper-Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C91459F1EBE30D700D4AAC5 /* MXHelper-Array.swift */; };
 		5C9145A21EBE30F500D4AAC5 /* MXHelper-Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9145A11EBE30F500D4AAC5 /* MXHelper-Controller.swift */; };
@@ -77,6 +78,7 @@
 		4DA08B01F9C3579447B992837E4A53DC /* Pods-CocoaHelperOSX-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CocoaHelperOSX-acknowledgements.plist"; sourceTree = "<group>"; };
 		5262CDE88F9D4588576C03D0FE352143 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		529BAC386A98ED6AC9A21EB00EC5537B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../CocoaHelper-iOS/Info.plist"; sourceTree = "<group>"; };
+		5C5385D81EC14C730043C1B9 /* MXHelper-Operator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MXHelper-Operator.swift"; sourceTree = "<group>"; };
 		5C7E14CD1EBF34CC0074A265 /* MXHelper-Dictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MXHelper-Dictionary.swift"; sourceTree = "<group>"; };
 		5C91459F1EBE30D700D4AAC5 /* MXHelper-Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MXHelper-Array.swift"; sourceTree = "<group>"; };
 		5C9145A11EBE30F500D4AAC5 /* MXHelper-Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MXHelper-Controller.swift"; sourceTree = "<group>"; };
@@ -175,6 +177,7 @@
 				5C7E14CD1EBF34CC0074A265 /* MXHelper-Dictionary.swift */,
 				5C91459F1EBE30D700D4AAC5 /* MXHelper-Array.swift */,
 				5C9145A11EBE30F500D4AAC5 /* MXHelper-Controller.swift */,
+				5C5385D81EC14C730043C1B9 /* MXHelper-Operator.swift */,
 				5CC886D31EBDC87600164DC0 /* sysctl.swift */,
 			);
 			path = CocoaHelper;
@@ -458,6 +461,7 @@
 				E10FBF0A16A3D30D8FFD99541861B351 /* MXHelper-Common.swift in Sources */,
 				5CC886D41EBDC87600164DC0 /* sysctl.swift in Sources */,
 				5CE2287C1EB987E5004866B6 /* MXHelper-Closure.swift in Sources */,
+				5C5385D91EC14C730043C1B9 /* MXHelper-Operator.swift in Sources */,
 				59D37257FDD144BC5F1E83D6E6020EEF /* MXHelper-Date.swift in Sources */,
 				7F90D50606BFEEFE83E1D772FA7624E5 /* MXHelper-Double.swift in Sources */,
 				E432EDDFD37BF3DBBB05A7AF50E24ECA /* MXHelper-GIF.swift in Sources */,

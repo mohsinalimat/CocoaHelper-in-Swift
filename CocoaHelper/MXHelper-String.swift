@@ -10,6 +10,20 @@ import Foundation
 
 public extension String {
     
+    public func repeating(_ time: Int, separator: String? = nil) -> String {
+        if time > 1 {
+            var res = [String]()
+            for _ in 1...time {
+                res.append(self)
+            }
+            if let sep = separator {
+                return res.joined(separator: sep)
+            }
+            return res.joined()
+        }
+        return self
+    }
+    
     public var length: Int {
         return self.characters.count
     }
